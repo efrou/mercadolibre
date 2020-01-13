@@ -1,0 +1,73 @@
+$lightgrey:#EEEEEE;
+$mediumgrey: #999999;
+$darkgrey: #666666;
+$darkergrey:#333333;
+$font:'Lato', sans-serif;
+
+
+body {
+    background-color: $lightgrey;
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+}
+
+.full-card{
+    margin: 16px 0 32px 0;
+}
+
+.bg-card{
+    background-color:white;
+    border:none;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img-results {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    padding: 16px 16px 16px 0;
+}
+
+.card-container{
+    display: flex;
+    border-bottom: 1px solid $lightgrey;
+    margin: 0 16px 0 16px;
+}
+
+.price{
+    font-size: 24px;
+    color: $darkergrey;
+    padding-bottom: 32px;
+}
+
+.state{
+    font-size: 12px;
+    color: $darkgrey;
+    padding: 34px 60px 0 0;
+}
+
+.title{
+    font-size: 18px;
+    color: $darkergrey;
+}
+
+.description{
+    padding-top:32px;
+    padding-left:16px;
+    flex: 1;
+}
+
+.price-truck-container{
+    display: flex;
+    align-items: baseline;
+}
+
+.truck{
+    padding-left:5px;
+}
+
+a{
+    text-decoration: none;
+}

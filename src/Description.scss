@@ -1,0 +1,88 @@
+$lightgrey:#EEEEEE;
+$mediumgrey: #999999;
+$darkgrey: #666666;
+$darkergrey:#333333;
+$blue: #3483FA;
+$font:'Lato', sans-serif;
+
+body {
+    background-color: $lightgrey;
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+}
+
+
+.full-card{
+    margin: 16px 0 32px 0;
+}
+
+.bg-card{
+    background-color:white;
+    border:none;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img-detail{
+    max-width: 680px;
+    width: 100%;
+    height: auto;
+}
+
+.detail-container{
+    display: flex;
+    padding: 32px;
+}
+
+.left-container{
+    width: 680px;
+}
+
+.right-container{
+    padding-left: 32px;
+}
+
+.detail-product{
+    font-size: 28px;
+    color: $darkergrey;
+    padding: 10px 0 32px 0;
+    margin: 0;
+}
+
+.detail-text {
+    font-size: 16px;
+    color: $mediumgrey;
+    margin: 0;
+}
+
+.vendidos{
+    font-size: 14px;
+    color: $darkergrey;
+    padding-bottom: 16px;
+    margin: 0;
+}
+
+.product-title{
+    font-size: 24px;
+    color: $darkergrey;
+    padding-bottom: 32px;
+    margin: 0;
+}
+
+.precio {
+    font-size: 46px;
+    color: $darkergrey;
+    padding-bottom: 32px;
+    margin: 0;
+}
+
+.boton-comprar{
+    background-color: $blue;
+    border: none;
+    width: 100%;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
